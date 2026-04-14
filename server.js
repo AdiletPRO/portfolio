@@ -48,7 +48,7 @@ const contactLimiter = rateLimit({
 const allowedOrigins = [
   'http://localhost:5500',      // Live Server (VS Code)
   'http://127.0.0.1:5500',
-  'https://твой-сайт.vercel.app' // ← сюда вставишь свой URL после деплоя
+  'https://portfolio-byul.onrender.com' // ← сюда вставишь свой URL после деплоя
 ];
 
 app.use(cors({
@@ -227,4 +227,6 @@ app.listen(PORT, () => {
     ? 'Локально: http://localhost:3000'
     : `Продакшн: порт ${PORT}`
   );
+  // Эта строка гарантирует, что при заходе на сайт загрузится index.html
+app.use(express.static('public'));
 });

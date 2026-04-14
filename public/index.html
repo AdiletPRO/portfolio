@@ -237,7 +237,13 @@
   </div>
 
   <div class="toast-msg" id="toast"></div>
+<div id="qrcode"></div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+  // Скрипт сам создаст код для текущей страницы
+  new QRCode(document.getElementById("qrcode"), window.location.href);
+</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
   <script>
 
