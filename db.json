@@ -1,0 +1,66 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Портфолио сайт",
+      "tech": "HTML, CSS, Bootstrap",
+      "emoji": "🎨",
+      "date": "2026-04-14"
+    },
+    {
+      "id": 2,
+      "title": "Todo приложение",
+      "tech": "HTML, CSS, JavaScript",
+      "emoji": "📋",
+      "date": "2026-04-14"
+    },
+    {
+      "id": 3,
+      "title": "Погодное приложение",
+      "tech": "JS, fetch, API",
+      "emoji": "🌤️",
+      "date": "2026-04-14"
+    },
+    {
+      "id": 4,
+      "title": "вр",
+      "tech": "ьа",
+      "emoji": "ьа",
+      "date": "2026-04-14"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "percent": 90
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "percent": 80
+    },
+    {
+      "id": 3,
+      "name": "Bootstrap",
+      "percent": 70
+    },
+    {
+      "id": 4,
+      "name": "JavaScript",
+      "percent": 60
+    },
+    {
+      "id": 5,
+      "name": "Node.js",
+      "percent": 50
+    },
+    {
+      "id": 6,
+      "name": "SQL",
+      "percent": 40
+    }
+  ],
+  "messages": [],
+  "nextId": 5
+}
